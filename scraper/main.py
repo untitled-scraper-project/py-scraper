@@ -1,5 +1,5 @@
 import json
-from scraper.scraper import SimpleScraper
+from scraper import SimpleScraper
 
 def scrape(filename=None, schema=None):
   if not filename and not schema:
